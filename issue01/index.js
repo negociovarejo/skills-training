@@ -10,7 +10,7 @@ const res = inputA.map((inputA, i) => {
 		description: inputA.description,
 		groupKey: inputA.groupKey,
 		sectionKey: inputA.sectionKey,
-		price: rightPrice[0]
+		price: rightPrice[0].price
 	};
 });
 
