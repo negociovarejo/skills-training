@@ -1,0 +1,32 @@
+{
+ "7892840804916": {
+  "description": "Pepsi Twist 2lt",
+  "groupKey": "soda",
+  "sectionKey": "drinks",
+  "price": 3.82
+ },
+ "7896005401286": {
+  "description": "Dafruta Laranja 1lt",
+  "groupKey": "juice_nectar",
+  "sectionKey": "drinks",
+  "price": 6.62
+ },
+ "7891150029545": {
+  "description": "Tresemmé Blindagem Platinum 750ml",
+  "groupKey": "hair_conditioner",
+  "sectionKey": "hygiene",
+  "price": 11.86
+ },
+ "7896005286593": {
+  "description": "Dona Benta Com Ovos 500g",
+  "groupKey": "noodle_screw",
+  "sectionKey": "basics",
+  "price": 3.38
+ },
+ "7898403782707": {
+  "description": "Betânia 850g",
+  "groupKey": "milk_fermented",
+  "sectionKey": "dairy",
+  "price": 3.77
+ }
+}

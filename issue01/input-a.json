@@ -1,0 +1,302 @@
+[
+ {
+  "key": "7898403782707",
+  "description": "Betânia 850g",
+  "groupKey": "milk_fermented",
+  "sectionKey": "dairy"
+ },
+ {
+  "key": "7891150051911",
+  "description": "Tresemmé Baixo Poo 400ml",
+  "groupKey": "hair_conditioner",
+  "sectionKey": "hygiene"
+ },
+ {
+  "key": "7892840800079",
+  "description": "Pepsi Cola Lata 350ml",
+  "groupKey": "soda",
+  "sectionKey": "drinks"
+ },
+ {
+  "key": "7891095011599",
+  "description": "Yoki Extra Fina 120g",
+  "groupKey": "potato_sticks",
+  "sectionKey": "snacks"
+ },
+ {
+  "key": "7892840812423",
+  "description": "H2o Misto Limão Com Gás 500ml",
+  "groupKey": "soda",
+  "sectionKey": "drinks"
+ },
+ {
+  "key": "7892970120344",
+  "description": "Estrela 56g",
+  "groupKey": "hamburguer",
+  "sectionKey": "cold"
+ },
+ {
+  "key": "7891132010011",
+  "description": "Sazon Camarao 37,5g",
+  "groupKey": "broth",
+  "sectionKey": "cooking"
+ },
+ {
+  "key": "7892840800567",
+  "description": "Pepsi Pet Cola 200ml",
+  "groupKey": "soda",
+  "sectionKey": "drinks"
+ },
+ {
+  "key": "7892840804916",
+  "description": "Pepsi Twist 2lt",
+  "groupKey": "soda",
+  "sectionKey": "drinks"
+ },
+ {
+  "key": "7894935108558",
+  "description": "Quando a Vida de Ter Limões Faça Uma Caipirinha",
+  "groupKey": "sign",
+  "sectionKey": "miscellaneous"
+ },
+ {
+  "key": "7892840815165",
+  "description": "Torcida Jr Queijo 45g",
+  "groupKey": "chips",
+  "sectionKey": "snacks"
+ },
+ {
+  "key": "7891150034952",
+  "description": "Rexona Antibacterial Fresh 84g",
+  "groupKey": "skin_soap",
+  "sectionKey": "hygiene"
+ },
+ {
+  "key": "7891150008809",
+  "description": "Dove Therapy Controle de Queda 200ml",
+  "groupKey": "hair_conditioner",
+  "sectionKey": "hygiene"
+ },
+ {
+  "key": "7891150008151",
+  "description": "Anti Caspa Clear Hidratação Intensa 200ml",
+  "groupKey": "hair_shampoo",
+  "sectionKey": "hygiene"
+ },
+ {
+  "key": "7896006400165",
+  "description": "Le Blanc Folha Dupla Perfumado 4un",
+  "groupKey": "toilet_paper",
+  "sectionKey": "cleaning"
+ },
+ {
+  "key": "7891037145351",
+  "description": "Seda Ceramidas 325ml",
+  "groupKey": "hair_conditioner",
+  "sectionKey": "hygiene"
+ },
+ {
+  "key": "7891024161913",
+  "description": "Palmolive Naturals Nutri-Liss 350ml",
+  "groupKey": "hair_shampoo",
+  "sectionKey": "hygiene"
+ },
+ {
+  "key": "7896005401217",
+  "description": "Dafruta Goiaba 200ml",
+  "groupKey": "juice_nectar",
+  "sectionKey": "drinks"
+ },
+ {
+  "key": "7892840814359",
+  "description": "Cebolitos 48g",
+  "groupKey": "chips_corn",
+  "sectionKey": "snacks"
+ },
+ {
+  "key": "7894904578146",
+  "description": "Rezende 56g",
+  "groupKey": "hamburguer",
+  "sectionKey": "cold"
+ },
+ {
+  "key": "7891024174715",
+  "description": "Palmolive Ceramidas 350ml",
+  "groupKey": "hair_conditioner",
+  "sectionKey": "hygiene"
+ },
+ {
+  "key": "7896005401286",
+  "description": "Dafruta Laranja 1lt",
+  "groupKey": "juice_nectar",
+  "sectionKey": "drinks"
+ },
+ {
+  "key": "7891024160923",
+  "description": "Palmolive Cabelos Secos Hidratação 350ml",
+  "groupKey": "hair_conditioner",
+  "sectionKey": "hygiene"
+ },
+ {
+  "key": "7891150016750",
+  "description": "Brilhante Brilho Ativo 1kg",
+  "groupKey": "washing_powder",
+  "sectionKey": "cleaning"
+ },
+ {
+  "key": "7891150012370",
+  "description": "Knorr Carne 19g",
+  "groupKey": "broth",
+  "sectionKey": "cooking"
+ },
+ {
+  "key": "7893000081628",
+  "description": "Qualy Aéra 250g",
+  "groupKey": "margarine",
+  "sectionKey": "dairy"
+ },
+ {
+  "key": "7896005286593",
+  "description": "Dona Benta Com Ovos 500g",
+  "groupKey": "noodle_screw",
+  "sectionKey": "basics"
+ },
+ {
+  "key": "7896005401156",
+  "description": "Dafruta Caju 200ml",
+  "groupKey": "juice_nectar",
+  "sectionKey": "drinks"
+ },
+ {
+  "key": "7891037145955",
+  "description": "Seda Ceramidas 325ml",
+  "groupKey": "hair_shampoo",
+  "sectionKey": "hygiene"
+ },
+ {
+  "key": "7891150012301",
+  "description": "Knorr Carne 57g",
+  "groupKey": "broth",
+  "sectionKey": "cooking"
+ },
+ {
+  "key": "7891150008847",
+  "description": "Dove Therapy Cachos Controlados 200ml",
+  "groupKey": "hair_conditioner",
+  "sectionKey": "hygiene"
+ },
+ {
+  "key": "7896005402320",
+  "description": "Dafruta Premium Tangerina 1lt",
+  "groupKey": "juice_nectar",
+  "sectionKey": "drinks"
+ },
+ {
+  "key": "7891025301585",
+  "description": "Danoninho Multi Frutas 320g",
+  "groupKey": "yogurt_petit_suisse",
+  "sectionKey": "dairy"
+ },
+ {
+  "key": "7891149108947",
+  "description": "Skol Puro Malte Long Neck 275ml",
+  "groupKey": "beer",
+  "sectionKey": "alcohol"
+ },
+ {
+  "key": "7892840812973",
+  "description": "Pepsi Cola 237ml",
+  "groupKey": "soda",
+  "sectionKey": "drinks"
+ },
+ {
+  "key": "7891024172537",
+  "description": "Palmolive Neutro 350ml",
+  "groupKey": "hair_conditioner",
+  "sectionKey": "hygiene"
+ },
+ {
+  "key": "7891095023929",
+  "description": "Yoki Extra Fina Cebola e Salsa 120g",
+  "groupKey": "potato_sticks",
+  "sectionKey": "snacks"
+ },
+ {
+  "key": "7891150019560",
+  "description": "Dove Karité 90g",
+  "groupKey": "skin_soap",
+  "sectionKey": "hygiene"
+ },
+ {
+  "key": "7892840815103",
+  "description": "Torcida Jr Bacon 45g",
+  "groupKey": "chips",
+  "sectionKey": "snacks"
+ },
+ {
+  "key": "7891058016647",
+  "description": "Dermacyd Femina 100ml",
+  "groupKey": "skin_soap_liquid",
+  "sectionKey": "hygiene"
+ },
+ {
+  "key": "7891025106838",
+  "description": "Danone Frutas Vermelhas 100g",
+  "groupKey": "yogurt_greek",
+  "sectionKey": "dairy"
+ },
+ {
+  "key": "7891025108979",
+  "description": "Milnutri Zero Açucar Multi Cereais Sachê 150g",
+  "groupKey": "porridge",
+  "sectionKey": "breakfast"
+ },
+ {
+  "key": "7891527000795",
+  "description": "Copacol 1kg",
+  "groupKey": "chicken_little_fillet",
+  "sectionKey": "cold"
+ },
+ {
+  "key": "7896005401330",
+  "description": "Dafruta Goiaba 1lt",
+  "groupKey": "juice_nectar",
+  "sectionKey": "drinks"
+ },
+ {
+  "key": "7896005402078",
+  "description": "Dafruta Goiaba 1lt",
+  "groupKey": "juice_nectar",
+  "sectionKey": "drinks"
+ },
+ {
+  "key": "7891150029545",
+  "description": "Tresemmé Blindagem Platinum 750ml",
+  "groupKey": "hair_conditioner",
+  "sectionKey": "hygiene"
+ },
+ {
+  "key": "7891024174036",
+  "description": "Palmolive Naturals Anti Armado 350ml",
+  "groupKey": "hair_shampoo",
+  "sectionKey": "hygiene"
+ },
+ {
+  "key": "7891150013995",
+  "description": "Knorr Galinha 114g",
+  "groupKey": "broth",
+  "sectionKey": "cooking"
+ },
+ {
+  "key": "7891150067912",
+  "description": "Kibon Cremosíssimo Tropical 2l",
+  "groupKey": "ice_cream",
+  "sectionKey": "dairy"
+ },
+ {
+  "key": "7891150037274",
+  "description": "Seda Crescimento Saudavel 325ml",
+  "groupKey": "hair_conditioner",
+  "sectionKey": "hygiene"
+ }
+]
