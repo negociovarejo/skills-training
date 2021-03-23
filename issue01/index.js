@@ -1,19 +1,21 @@
 const fs = require('fs');
 
-var inputA = JSON.parse(fs.readFileSync('src/input-a.json'));
-var inputB = JSON.parse(fs.readFileSync('src/input-b.json'));
+var inputA = JSON.parse(fs.readFileSync('input-a.json'));
+var inputB = JSON.parse(fs.readFileSync('input-b.json'));
 
-const res = inputA.map((inputAItem, i) => {
-    return {
-			description: inputAItem.description,
-			groupKey: inputAItem.groupKey,
-			sectionKey: inputAItem.sectionKey,
-			price: inputB[i].price
-		};
+const res = inputA.map((inputA, i) => {
+	const rightPrice = inputB.filter(item => item.key == inputA.key);
+
+	return {
+		description: inputA.description,
+		groupKey: inputA.groupKey,
+		sectionKey: inputA.sectionKey,
+		price: rightPrice[0]
+	};
 });
 
-const object = res.reduce((obj, item, i) => {
-	return Object.assign(obj, { [inputB[i].key]: item}, {});
-})
+// const object = res.reduce((obj, item, i) => {
+// 	return Object.assign(obj, { [inputB[i].key]: item }, {});
+// })
 
-console.log(object);
+fs.writeFileSync('actual.json', JSON.stringify(res, null, ' '));
