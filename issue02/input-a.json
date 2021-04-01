@@ -1,0 +1,129 @@
+{
+  "alcohol" : {
+    "groups" : {
+      "beer" : {
+        "name" : "Cerveja"
+      }
+    },
+    "name" : "Bebidas Alcoólicas"
+  },
+  "basics" : {
+    "groups" : {
+      "noodle_screw" : {
+        "name" : "Macarrão Parafuso"
+      }
+    },
+    "name" : "Alimentos Básicos"
+  },
+  "breakfast" : {
+    "groups" : {
+      "porridge" : {
+        "name" : "Mingau"
+      }
+    },
+    "name" : "Matinal"
+  },
+  "cleaning" : {
+    "groups" : {
+      "toilet_paper" : {
+        "name" : "Papel Higiênico"
+      },
+      "washing_powder" : {
+        "name" : "Sabão em Pó"
+      }
+    },
+    "name" : "Limpeza"
+  },
+  "cold" : {
+    "groups" : {
+      "chicken_little_fillet" : {
+        "name" : "Filézinho de Frango"
+      },
+      "hamburguer" : {
+        "name" : "Hamburguer Bovino"
+      }
+    },
+    "name" : "Frios"
+  },
+  "cooking" : {
+    "groups" : {
+      "broth" : {
+        "name" : "Caldo"
+      }
+    },
+    "name" : "Condimentos, Molhos, e Temperos"
+  },
+  "dairy" : {
+    "groups" : {
+      "ice_cream" : {
+        "name" : "Sorvete"
+      },
+      "margarine" : {
+        "name" : "Margarina"
+      },
+      "milk_fermented" : {
+        "name" : "Leite Fermentado"
+      },
+      "yogurt_greek" : {
+        "name" : "Iogurte Grego"
+      },
+      "yogurt_petit_suisse" : {
+        "name" : "Iogurte Petit Suisse"
+      }
+    },
+    "name" : "Ovos e Laticíneos"
+  },
+  "drinks" : {
+    "groups" : {
+      "juice_nectar" : {
+        "name" : "Suco Néctar"
+      },
+      "soda" : {
+        "name" : "Refrigerante"
+      }
+    },
+    "name" : "Bebidas"
+  },
+  "hygiene" : {
+    "groups" : {
+      "hair_conditioner" : {
+        "name" : "Condicionador"
+      },
+      "hair_shampoo" : {
+        "name" : "Shampoo"
+      },
+      "skin_soap" : {
+        "name" : "Sabonete"
+      },
+      "skin_soap_liquid" : {
+        "name" : "Sabonete Líquido"
+      }
+    },
+    "name" : "Higiene e Beleza"
+  },
+  "miscellaneous" : {
+    "groups" : {
+      "sign" : {
+        "name" : "Placa"
+      }
+    },
+    "name" : "Bazar, Especiais, e Outros"
+  },
+  "snacks" : {
+    "groups" : {
+      "chips" : {
+        "name" : "Salgadinhos"
+      },
+      "chips_corn" : {
+        "name" : "Salgadinho de Milho"
+      },
+      "potato_chips" : {
+        "name" : "Batata Frita"
+      },
+      "potato_sticks" : {
+        "name" : "Batata Palha"
+      }
+    },
+    "name" : "Biscoitos e Salgadinhos"
+  }
+}
