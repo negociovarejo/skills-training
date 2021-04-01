@@ -1,21 +1,20 @@
 const fs = require('fs');
 
-
-const inputA = JSON.parse(fs.readFileSync('input-a.json'));
-const inputB = JSON.parse(fs.readFileSync('input-b.json'));
+const products = JSON.parse(fs.readFileSync('products.json'));
+const productPrices = JSON.parse(fs.readFileSync('productPrices.json'));
 
 const myMap = {};
 
-inputB.forEach(itemB => {
-	myMap[itemB.key] = itemB.price;
+productPrices.forEach(productPrice => {
+	myMap[productPrice.key] = productPrice.price;
 });
 
-const res = inputA.map(inputA => {
+const res = products.map(product => {
 	return {
-		description: inputA.description,
-		groupKey: inputA.groupKey,
-		sectionKey: inputA.sectionKey,
-		price: myMap[inputA.key]
+		description: product.description,
+		groupKey: product.groupKey,
+		sectionKey: product.sectionKey,
+		price: myMap[product.key]
 	};
 });
 
