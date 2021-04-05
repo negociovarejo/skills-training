@@ -9,33 +9,60 @@ const productValues = Object.values(productsJson);
 const sectionKeys = Object.keys(sectionsJson);
 const sectionValues = Object.values(sectionsJson);
 
-sectionValues.forEach(item => {
-  delete item.name;
+let productsMap = {};
+
+let sectionMap = {};
+let groupMap = {};
+
+productValues.forEach((product, i) => {
+  if (!sectionMap[product.sectionKey]) {
+    sectionMap[product.sectionKey] = {
+      name: '',
+      products: {}
+    };
+  }
+
+  sectionMap[product.sectionKey].products[productKeys[i]] = {
+    description: product.description
+  };
 });
 
-const sectionsNameMap = {};
-// const productsMap = {};
+sectionValues.forEach((section, i) => {
+  let groupKeys = Object.keys(section.groups);
+  let groupValues = Object.values(section.groups);
 
-// const productsMap = productKeys.forEach((key, i) => {
-//   productsMap[key] = productValues[i];
-// });
+  if (groupValues.length > 1) {
+    groupValues.forEach((groupValue, j) => {
+      let key = `${sectionKeys[i]}_${groupKeys[j]}`;
+      let value = {
+        productName: groupValue.name,
+        sectionName: section.name
+      };
 
-// sectionKeys.forEach((section, i) => {
-//   sectionsNameMap[section] = sectionValues[i].name;
-// });
+      groupMap[key] = value;
+    });
+  }
 
+  let key = `${sectionKeys[i]}_${groupKeys[0]}`;
+  let value = {
+    productName: groupValues[0].name,
+    sectionName: section.name
+  };
 
+  groupMap[key] = value;
+});
 
-// const productsBySection = sectionKeys.map((section) => {
-//   return {
-//     [section]: {
-//       name: sectionsNameMap[section],
-//       products: { }
-//     }
-//   }
-// });
+productValues.forEach((product, i) => {
+  let sectionName = sectionMap[product.sectionKey];
+  let sectionItem = sectionMap[product.sectionKey].products[productKeys[i]];
+  let group = groupMap[`${product.sectionKey}_${product.groupKey}`];
 
-console.log(sectionValues);
+  sectionItem.description = `${group.productName} ${sectionItem.description}`;
+  sectionName.name = group.sectionName;
+});
+
+fs.writeFileSync('answer.json', JSON.stringify(sectionMap, null, ' '));
+
 
 
 
