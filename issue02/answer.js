@@ -4,27 +4,22 @@ const productsJson = JSON.parse(fs.readFileSync('./products.json'));
 const sectionsJson = JSON.parse(fs.readFileSync('./sections.json'));
 
 const productKeys = Object.keys(productsJson);
-const productValues = Object.values(productsJson);
-
 const sectionKeys = Object.keys(sectionsJson);
-const sectionValues = Object.values(sectionsJson);
-
-let productsMap = {};
 
 let sectionMap = {};
 let groupMap = {};
 
-productValues.forEach((product, i) => {
-  if (!sectionMap[product.sectionKey]) {
-    sectionMap[product.sectionKey] = {
+productKeys.forEach(productKey => {
+  const { sectionKey, description } = productsJson[productKey];
+
+  if (!sectionMap[sectionKey]) {
+    sectionMap[sectionKey] = {
       name: '',
       products: {}
     };
   }
 
-  sectionMap[product.sectionKey].products[productKeys[i]] = {
-    description: product.description
-  };
+  sectionMap[sectionKey].products[productKey] = { description };
 });
 
 sectionValues.forEach((section, i) => {
@@ -62,7 +57,6 @@ productValues.forEach((product, i) => {
 });
 
 fs.writeFileSync('answer.json', JSON.stringify(sectionMap, null, ' '));
-
 
 
 
