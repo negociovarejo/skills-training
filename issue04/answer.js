@@ -20,4 +20,34 @@ Only the first three items has special names. The rest you can name as:
 At result.png you can see how it should works. Paste your code below.
 */
 
-
+function exercicio4() {
+  const colors = [
+    'Blue ',
+    'Green',
+    'Red',
+    'Orange',
+    'Violet',
+    'Indigo',
+    'Yellow '
+  ]
+  let position = ['th', 'st', 'nd', 'rd']
+  let num = 1
+  var ul, li
+  ul = document.createElement('ul')
+  for (let i = 0; i < colors.length; i++) {
+    if (num <= 3) {
+      li = document.createElement('li')
+      li.setAttribute('style', 'color: ' + colors[i])
+      li.innerHTML = num + position[num] + ' choice is ' + colors[i]
+      ul.appendChild(li)
+    } else {
+      li = document.createElement('li')
+      li.setAttribute('style', 'color: ' + colors[i])
+      li.innerHTML = num + position[0] + ' choice is ' + colors[i]
+      ul.appendChild(li)
+    }
+    num++
+  }
+  document.body.appendChild(ul)
+}
+exercicio4()

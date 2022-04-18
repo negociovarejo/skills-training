@@ -1,0 +1,124 @@
+<!-- 
+Issue 03
+Write a JavaScript function to split a string and convert it into an array of words.
+Then loop through this array of words and inverts your normal order.
+
+P.S.
+  console.log(stringToArray('Wilisses Maciel'));
+  Response 1: ['Wilisses', 'Maciel']
+  Response 2: ['Sessiliw', 'Leicam']
+
+
+Paste your code below -->
+
+<!DOCTYPE html>
+<html lang="br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    div {
+      padding: 0.5rem;
+    }
+    table {
+      border: 0.1rem solid #cad7d7;
+      width: 10rem;
+    }
+    td {
+      padding: 0.5rem;
+      border: 0.1rem solid #cad7d7;
+    }
+    tr {
+      background-color: rgb(255, 255, 255);
+      padding: 20px;
+      font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    }
+    tr .titulo {
+      background-color: rgb(80, 82, 241);
+      text-align: center;
+      color: #ffffff;
+    }
+    label {
+      font-size: 1.3rem;
+      font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    }
+    input {
+      padding: 0.5rem;
+      border: 0.1rem solid #cad7d7;
+    }
+    input.button {
+      background-color: rgb(80, 82, 241);
+      text-align: center;
+      color: #ffffff;
+      font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    }
+  </style>
+  <body>
+    <script>
+      function exercicio3() {
+        var table, tr, tb
+
+        let text = document.getElementById('texto').value
+        // let text = 'Wilisses Maciel'
+
+        let array = text.split(' ')
+        console.log(array)
+
+        table = document.createElement('table')
+        tr = document.createElement('tr')
+        td = document.createElement('td')
+        td.setAttribute('class', 'titulo')
+        td.setAttribute('colspan', '500')
+        td.innerHTML = 'Normal'
+        tr.appendChild(td)
+        table.appendChild(tr)
+        tr = document.createElement('tr')
+        for (let i = 0; i < array.length; i++) {
+          td = document.createElement('td')
+          td.innerHTML = array[i]
+          tr.appendChild(td)
+        }
+        table.appendChild(tr)
+        document.body.appendChild(table)
+
+        // let inverter = text.split('')
+        // let respostainverter = inverter.reverse().toString()
+        // respostainverter = respostainverter.replace(/\,/g, '')
+        // let arrayinverter = respostainverter.split(' ')
+        // console.log(arrayinverter)
+
+        table = document.createElement('table')
+        tr = document.createElement('tr')
+        td = document.createElement('td')
+        td.setAttribute('class', 'titulo')
+        td.setAttribute('colspan', '500')
+        td.innerHTML = 'Inertido'
+        tr.appendChild(td)
+        table.appendChild(tr)
+        tr = document.createElement('tr')
+        for (let i = 0; i < array.length; i++) {
+          td = document.createElement('td')
+          td.innerHTML = array[i].split('').reverse().join('')
+          tr.appendChild(td)
+        }
+        table.appendChild(tr)
+        document.body.appendChild(table)
+      }
+    </script>
+    <div>
+      <from active="">
+        <label for="Digita seu texto">Texto </label>
+        <input type="text" id="texto" />
+        <input
+          type="button"
+          class="button"
+          value="Enviar"
+          onclick="exercicio3()"
+        />
+      </from>
+    </div>
+  </body>
+</html>
